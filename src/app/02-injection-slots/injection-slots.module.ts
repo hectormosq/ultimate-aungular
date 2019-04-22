@@ -10,4 +10,4 @@ import { InjectionSlotsComponent } from "./injection-slots.component";
   imports: [BrowserModule, AuthFormModule],
   bootstrap: [InjectionSlotsComponent]
 })
-export class InejctionSlotsModule {}
+export class InjectionSlotsModule {}
