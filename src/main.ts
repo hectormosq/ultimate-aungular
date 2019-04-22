@@ -1,7 +1,7 @@
 import { enableProdMode } from "@angular/core";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-import { ProjectingModulesModule as AppModule } from "./app/03-projecting-modules/projecting-modules.module";
+import { AppModule } from "./app/04-content-child-aftercontentinit/app.module";
 import { environment } from "./environments/environment";
 
 if (environment.production) {
