@@ -1,7 +1,7 @@
 import { enableProdMode } from "@angular/core";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-import { InjectionSlotsModule as AppModule } from "./app/02-injection-slots/injection-slots.module";
+import { ProjectingModulesModule as AppModule } from "./app/03-projecting-modules/projecting-modules.module";
 import { environment } from "./environments/environment";
 
 if (environment.production) {
