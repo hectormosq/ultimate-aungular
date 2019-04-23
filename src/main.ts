@@ -1,7 +1,7 @@
 import { enableProdMode } from "@angular/core";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-import { AppModule } from "./app/11-dynamic-components/app.module";
+import { AppModule } from "./app/12-dynamic-input-data/app.module";
 import { environment } from "./environments/environment";
 
 if (environment.production) {
