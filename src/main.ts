@@ -1,7 +1,7 @@
 import { enableProdMode } from "@angular/core";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-import { AppModule } from "./app/06-viewchild-afterviewinit/app.module";
+import { AppModule } from "./app/07-viewchildren-querylists/app.module";
 import { environment } from "./environments/environment";
 
 if (environment.production) {
