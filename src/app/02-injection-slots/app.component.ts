@@ -1,4 +1,4 @@
-mport { Component } from "@angular/core";
+import { Component } from "@angular/core";
 import { User } from "./auth-form/auth-form.interface";
 
 @Component({

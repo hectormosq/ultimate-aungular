@@ -1,9 +1,7 @@
 import {
   Component,
   Output,
-  EventEmitter,
-  AfterContentInit,
-  AfterViewInit
+  EventEmitter
 } from "@angular/core";
 import { User } from "./auth-form.interface";
 @Component({
@@ -17,7 +15,7 @@ import { User } from "./auth-form.interface";
   ],
   templateUrl: "auth-form.template.html"
 })
-export class AuthFormComponent implements AfterContentInit, AfterViewInit {
+export class AuthFormComponent {
   title = "Login";
 
   @Output() submitted: EventEmitter<User> = new EventEmitter<User>();
