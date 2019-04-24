@@ -1,0 +1,1 @@
+Template is deprecated since Angular 4 so ng-template must be used instead
