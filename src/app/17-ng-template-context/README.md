@@ -1,0 +1,1 @@
+$implicit will be added to every let variables without any asignation in the template context.
